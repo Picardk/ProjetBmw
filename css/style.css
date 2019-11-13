@@ -1,0 +1,100 @@
+@charset "UTF-8" ;
+
+/* font-family: 'Roboto', sans-serif; */
+
+
+body {
+    background-image: url(../image/sunset_curve.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.car {
+    float:left; 
+    margin: 150px 500px 0px 50px;
+    height: 80%; 
+    border-block-color: black ;
+
+}
+
+    section{
+        margin-bottom: 40px;
+        margin-top: 20px;
+    
+    }
+    form{
+        float: top-right;
+        background-color: black;
+        padding: 15px;
+        margin: 15px;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        width: 50%;
+        color: white;
+        border-radius: 20px;
+        }
+    
+    input{
+        margin-bottom: 5px;
+        }
+    
+    select{
+        margin-bottom: 5px;
+        }
+    button{
+        box-shadow: 2px 2px 0px white;
+        border-radius:10px 5px 10px 5px;
+        }
+    table {
+        background-color: #DDD;
+        position: static;
+        justify-content: center; 
+    }
+    
+    textarea{
+        margin-bottom: 5px;
+        }
+    h1, h3, legend{
+        font-weight: bold;
+        }
+    #luxure{
+        float: right;
+    }
+    #noir{
+        display: flex;
+        float: bottom;
+        width:50%;
+        height: 50%;
+        margin-top: 20%;
+    }
+    img{
+        height: 50%;
+        display: flex;
+        float: bottom;
+    }
+    #new{
+        color: white;
+        font-size: 3em; 
+        font-weight: bold; 
+        -webkit-transform:rotate(-10deg);
+        -moz-transform:rotate(-10deg);
+        -o-transform:rotate(-10deg);
+        /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.1); */
+        -ms-transform:rotate(-10deg); 
+        transform:  rotate(-10deg); 
+        margin-top: 200px;
+        margin-left: 200px;
+        z-index: 2
+        
+    }
+    #section{
+         padding-top: 30px;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      color: inherit;
+      background-color: #eee;
+    }
+    #container{
+        margin-bottom: 40px;
+        margin-top: 70px;
+    }
